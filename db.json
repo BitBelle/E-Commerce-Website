@@ -1,6 +1,7 @@
 {
   "users": [
     {
+<<<<<<< HEAD
       "id": "1d28",
       "username": "mercy",
       "password": "123123123",
@@ -17,6 +18,30 @@
       "username": "janet",
       "password": "123123123",
       "email": "janet@gmail.com"
+=======
+      "id": "1",
+      "username": "JanetAlwanga",
+      "password": "Honesty@01",
+      "email": "sistee001@gmail.com"
+    },
+    {
+      "id": "442f",
+      "username": "janet",
+      "password": "R29kc2ZpcnN0MDE=",
+      "email": "sistee001@gmail.com"
+    },
+    {
+      "id": "a3f1",
+      "username": "rahab",
+      "password": "MTIzNDU2Nzg5MA==",
+      "email": "rahab@gmail.com"
+    },
+    {
+      "id": "b1fd",
+      "username": "janet",
+      "password": "MTIzNDU2Nzg=",
+      "email": "admin2@gmail.com"
+>>>>>>> c531ccd1203abe6c91ba8f416717a58d8e2a585b
     }
   ],
   "products": [
