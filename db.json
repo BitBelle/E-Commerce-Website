@@ -1,0 +1,86 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "JanetAlwanga",
+      "password": "Honesty@01",
+      "email": "sistee001@gmail.com"
+    },
+    {
+      "id": "442f",
+      "username": "janet",
+      "password": "R29kc2ZpcnN0MDE=",
+      "email": "sistee001@gmail.com"
+    },
+    {
+      "id": "a3f1",
+      "username": "rahab",
+      "password": "MTIzNDU2Nzg5MA==",
+      "email": "rahab@gmail.com"
+    },
+    {
+      "id": "b1fd",
+      "username": "janet",
+      "password": "MTIzNDU2Nzg=",
+      "email": "admin2@gmail.com"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Wrist Watch",
+      "price": 120,
+      "description": "A stylish wrist watch",
+      "image": "../img/watch.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Polaroid Camera",
+      "price": 120,
+      "description": "Capture moments",
+      "image": "../img/camera.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Facial Makeup Cream",
+      "price": 120,
+      "description": "Enhance your beauty",
+      "image": "../img/facialcream.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Ladies Perfume",
+      "price": 120,
+      "description": "A delightful fragrance",
+      "image": "../img/ladyperfume2.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Facial Cream",
+      "price": 120,
+      "description": "Smooth and gentle",
+      "image": "../img/facialcream.jpg"
+    },
+    {
+      "id": "6",
+      "name": "Makeup Brush",
+      "price": 120,
+      "description": "High quality brush",
+      "image": "../img/makeupbrush.jpg"
+    },
+    {
+      "id": "7",
+      "name": "Men's Perfume",
+      "price": 120,
+      "description": "A bold fragrance",
+      "image": "../img/menperfume.jpg"
+    },
+    {
+      "id": "8",
+      "name": "Ladies Deospray",
+      "price": 120,
+      "description": "Long lasting freshness",
+      "image": "../img/dedorant.jpg"
+    }
+  ]
+}
