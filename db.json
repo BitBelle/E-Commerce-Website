@@ -1,0 +1,74 @@
+{
+  "users": [
+    {
+      "id": "1d28",
+      "username": "mercy",
+      "password": "123123123",
+      "email": "mercy@gmail.com"
+    },
+    {
+      "id": "1578",
+      "username": "janet",
+      "password": "123123123",
+      "email": "janet@gmail.com"
+    },
+    {
+      "id": "a68e",
+      "username": "janet",
+      "password": "123123123",
+      "email": "janet@gmail.com"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Wrist Watch",
+      "price": 120,
+      "img": "/img/watch.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Polaroid Camera",
+      "price": 120,
+      "img": "/img/camera.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Facial Makeup Cream",
+      "price": 120,
+      "img": "/img/facialcream.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Ladies Perfume",
+      "price": 120,
+      "img": "/img/ladyperfume2.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Facial Cream",
+      "price": 120,
+      "img": "/img/facialcream.jpg"
+    },
+    {
+      "id": "6",
+      "name": "Makeup Brush",
+      "price": 120,
+      "img": "/img/makeupbrush.jpg"
+    },
+    {
+      "id": "7",
+      "name": "Men's Perfume",
+      "price": 120,
+      "img": "/img/menperfume.jpg"
+    },
+    {
+      "id": "8",
+      "name": "Ladies Deospray",
+      "price": 120,
+      "img": "/img/dedorant.jpg"
+    }
+  ],
+  
+  "cart": []
+}
