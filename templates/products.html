@@ -22,6 +22,8 @@
                     <li><a href="/templates/signup.html">Signup</a></li>
                     <li><a href="/templates/login.html">Login</a></li>
                     <li><a href="#" id="view-cart">Cart (<span id="cart-count">0</span>)</a></li>
+                    <li><a href="#" id="add-product-btn">Add Product</a></li>
+
                 </ul>
             </nav>
         </div>
@@ -29,6 +31,33 @@
 
     <main>
         <section class="new-arrivals">
+            <!-- Product Modal -->
+            <div id="add-product-modal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h2>Add Product</h2>
+                    <form id="add-product-form">
+                        <label for="product-name">Product Name:</label>
+                        <input type="text" id="product-name" name="product-name" required><br>
+                        <label for="product-image">Image URL:</label>
+                        <input type="text" id="product-image" name="product-image" required><br>
+                        <label for="product-price">Price:</label>
+                        <input type="number" id="product-price" name="product-price" required><br>
+                        <button type="submit" class="btn btn-primary">Add Product</button>
+                    </form>
+                </div>
+                <!-- Manage Products Section -->
+                <section class="manage-products">
+                    <div class="container">
+                        <h2>Manage Products</h2>
+                        <div id="added-products" class="grid">
+                            <!-- Display added products here -->
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+
             <div class="container">
                 <h2>New Arrivals</h2>
                 <p>Discover our latest products that have just arrived.</p>
@@ -115,7 +144,7 @@
                     <strong>Total:</strong>
                     <span id="cart-total-price">$0.00</span>
                 </div>
-                
+
                 <div id="cart-message" style="color: red;"></div>
 
                 <button id="checkout" class="btn btn-primary">Checkout</button>
@@ -144,8 +173,8 @@
             </div>
         </footer>
     </main>
-    <script src="/script/script.js"></script>
-    <script src="/script/cart.js"></script>
+    <script src="/script/main.js"></script>
+    <!-- <script src="/script/cart.js"></script> -->
 </body>
 
 </html>
