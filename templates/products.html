@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/landingpage.css">
+    <title>E-Commerce - LadyBird</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>LadyBird</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Catalog</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="/templates/signup.html">Signup</a></li>
+                    <li><a href="/templates/login.html">Login</a></li>
+                    <li><a href="#" id="view-cart">Cart (<span id="cart-count">0</span>)</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="new-arrivals">
+            <div class="container">
+                <h2>New Arrivals</h2>
+                <p>Discover our latest products that have just arrived.</p>
+                <div class="grid">
+                    <!-- Product items -->
+                    <div class="product-item" data-id="1">
+                        <img src="/img/watch.jpg" alt="Wrist Watch">
+                        <p>Wrist Watch</p>
+                        <div class="price-tag">
+                            <p>$120.00</p>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="product-item" data-id="2">
+                        <img src="/img/camera.jpg" alt="Polaroid Camera">
+                        <p>Polaroid Camera</p>
+                        <div class="price-tag">
+                            <p>$120.00</p>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="product-item">
+                        <img src="/img/facialcream.jpg" alt="Facial Makeup Cream">
+                        <p>Facial Makeup Cream</p>
+                        <div class="price-tag">
+                            <p>$120.00</p>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="product-item">
+                        <img src="/img/ladyperfume2.jpg" alt="Ladies Perfume">
+                        <p>Ladies Perfume</p>
+                        <div class="price-tag">
+                            <p>$120.00</p>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="product-item">
+                        <img src="/img/facialcream.jpg" alt="Facial Cream">
+                        <p>Facial Cream</p>
+                        <div class="price-tag">
+                            <p>$120.00</p>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="product-item">
+                        <img src="/img/makeupbrush.jpg" alt="Makeup Brush">
+                        <p>Makeup Brush</p>
+                        <div class="price-tag">
+                            <p>$120.00</p>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="product-item">
+                        <img src="/img/menperfume.jpg" alt="Men's Perfume">
+                        <p>Men's Perfume</p>
+                        <div class="price-tag">
+                            <p>$120.00</p>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="product-item">
+                        <img src="/img/dedorant.jpg" alt="Ladies Deospray">
+                        <p>Ladies Deospray</p>
+                        <div class="price-tag">
+                            <p>$120.00</p>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <!-- <button class="load-more">Load More...</button> -->
+            </div>
+        </section>
+
+        <!-- Cart Modal -->
+        <div id="cart-modal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Your Cart</h2>
+                <div id="cart-items">
+                    <!-- where my cart items appear -->
+                </div>
+                <div class="cart-total">
+                    <strong>Total:</strong>
+                    <span id="cart-total-price">$0.00</span>
+                </div>
+                
+                <div id="cart-message" style="color: red;"></div>
+
+                <button id="checkout" class="btn btn-primary">Checkout</button>
+            </div>
+
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-about">
+                        <h3>Lady Bird</h3>
+                        <p>All the fashion trends.</p>
+                    </div>
+                    <div class="footer-socials">
+                        <h3>Follow Us</h3>
+                        <ul>
+                            <li><a href="#">Instagram</a></li>
+                            <li><a href="#">Twitter</a></li>
+                            <li><a href="#">Facebook</a></li>
+                            <li><a href="#">Google</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+    <script src="/script/script.js"></script>
+    <script src="/script/cart.js"></script>
+</body>
+
+</html>
